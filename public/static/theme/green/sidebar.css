@@ -1,0 +1,227 @@
+.main-container {
+  min-height: 100%;
+  transition: margin-left .28s;
+  position: relative;
+  /*整体背景颜色*/
+  background: #36425D;
+}
+
+.app-main{
+  background-color: #36425D;
+}
+.navbar {
+  background: #36425D;
+}
+/*.navebar {*/
+/*  background: #F7FAF8;*/
+/*}*/
+.echart_container{
+  background-color: #36425D;
+}
+.user-management{
+  background-color: #2A364F;
+  margin: 20px 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.criminal-recording-detail {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  padding: 10px;
+  background: #2A364F;
+  box-sizing: border-box;
+}
+
+.el-pagination__total{
+  color: #D6E5F2;
+}
+.el-pagination button:disabled, .el-dialog, .el-pager li{
+  background-color: #2A364F;
+  color: #D6E5F2;
+}
+.el-pager li.active, .el-pagination__jump{
+  color: #D6E5F2;
+}
+
+.el-date-editor .el-range-input{
+  color: #D6E5F2;
+  background-color: #36425D;
+}
+
+.el-drawer.rtl {
+  background-color: #2A364F;
+}
+
+.el-drawer__header{
+  color: #D6E5F2;
+}
+
+.el-date-editor .el-range-separator{
+  color: #D6E5F2;
+}
+.menu-list .menu-item .menu-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  background: #2A364F;
+  margin: 2px;
+  color: #D6E5F2;
+  border-radius: 20px;
+  /*box-shadow: 0 0 20px #eeeeee;*/
+}
+.sidebar-container{
+  background-color: #2D3953;
+}
+.el-tag.el-tag--info{
+  border: none;
+}
+
+.failStatus {
+  display: flex;
+  flex-direction: row;
+  background-color: #5D677C;
+  border-radius: 5px;
+  height: 20px;
+  margin: 5px;
+  font-size: 5px;
+  width: 60px;
+  text-align: center;
+}
+
+.el-table__fixed-header-wrapper thead tr{
+  /*表头文字背景颜色*/
+  color: #D6E5F2
+}
+
+.el-table__footer-wrapper tbody td, .el-table__header-wrapper tbody td {
+  /*background-color: rgb(251, 253, 255);*/
+  color: rgb(31, 45, 61)
+}
+.room-item .item-content, .medical-item {
+ color: #D6E5F2;
+}
+.bottom_style{
+  background-color: #2A364F;
+  border-radius: 10px;
+}
+
+.kanBan-title{
+  font-size: 16px;
+  height: 10%;
+  font-weight: bold;
+  color: #D6E5F2;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.echarts_title{
+  color: #D6E5F2;
+}
+.right-menu-item {
+  color: #D6E5F2;
+}
+.carried {
+  color: #B2C0DD;
+}
+
+.el-dialog__title, .title-content {
+  color: #D6E5F2;
+}
+
+legend{
+  color: #D6E5F2;
+}
+
+.bottom-num, .progress-bar {
+  color: #B2C0DD;
+}
+
+.detail, .content_oneWeek, .table_content, .medical, .table_content_row{
+  /*background-color: #eef0f4;*/
+  background-color: #36425D;
+  color: #B2C0DD;
+  /*height: calc(100vh);*/
+}
+.top_oneWeek,  .bottom_oneWeek {
+  background-color: #2A364F;
+}
+
+.bottom_title2, .title_text{
+  color: #D6E5F2;
+}
+
+.panel-primary td{
+  color: #B2C0DD;
+}
+
+.panel-primary tr, .persion_text, .panel-primary bold {
+  color: #D6E5F2;
+}
+
+.back .button{
+  background-color: #235DB7;
+  color: #D6E5F2;
+}
+
+.hamburger{
+  width: 20px;
+  height: 20px;
+  color: #D6E5F2;
+}
+
+.tit {
+color: #D6E5F2
+}
+
+.cell .el-button{
+  color: #69b0e2;
+}
+
+.delete_el_btn{
+  color: #d83e3e;
+}
+
+.afterToday, .countNowData, .showNowData{
+  border-radius: 20px;
+  background-color: #2A364F;
+}
+.bold{
+  color: #D6E5F2;
+}
+
+.work_show, .ration_div, .show, .medical_count1,.medical_count2, .patient_person{
+  border-radius: 20px;
+  background-color: #2A364F;
+}
+
+.el-pagination .btn-next, .el-pagination .btn-prev {
+  background: center center no-repeat #2A364F;
+  background-size: 16px;
+  /*border: 1px solid rgb(209, 219, 229);*/
+  cursor: pointer;
+  margin: 0;
+  color: rgb(151, 168, 190)
+}
+.el-date-editor .el-range__close-icon{
+  margin-right: 35px;
+}
+
+.jv-container.jv-light{
+  background: #2A364F !important;
+  color: #D6E5F2 !important;
+}
+
+
+.el-tree-node__content>.el-tree-node__expand-icon{
+  padding: 0;
+}
+.el-icon-caret-right:before{
+  content: none;
+}

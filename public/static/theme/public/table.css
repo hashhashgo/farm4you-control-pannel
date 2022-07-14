@@ -1,0 +1,61 @@
+.el-table__fixed-header-wrapper thead div {
+  /*表头文字背景颜色*/
+  background-color: #32A2FD;
+  color: rgb(31, 45, 61)
+}
+.el-table .sort-caret.descending {
+  bottom: 9px;
+  /*表头排序图标颜色*/
+  border-top: 5px solid #808080;
+  border-bottom: none
+}
+.el-table td, .el-table th.is-leaf {
+  /*表格横线*/
+  /*border-bottom: 0px solid rgb(223, 230, 236)*/
+}
+.el-table--border td, .el-table--border th {
+  /*表格竖线*/
+  border-right: 1px grey dashed;
+}
+
+.el-table th {
+  white-space: nowrap;
+  overflow: hidden;
+  /*表格表头背景颜色*/
+  background-color: #32A2FD;
+  text-align: left
+}
+.el-table__footer-wrapper thead div, .el-table__header-wrapper thead div {
+  /*表头文字背景颜色*/
+  background-color: #32A2FD;
+  color: rgb(31, 45, 61)
+}
+
+.el-table .warning-row{
+  /*add偶数行背景颜色*/
+  background-color: #E2F2FF;
+}
+/*添加*/
+.el-table--medium td, .el-table--medium th{
+  padding: 0;
+}
+/*表格内边距*/
+.el-table--medium td, .el-table--medium th{
+  padding: 0;
+}
+.el-table--mini td, .el-table--mini th{
+  padding: 0;
+}
+.el-table__fixed, .el-table__fixed-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 1px 0 8px #d3d4d6;
+  /*禁止表格右滑动*/
+  overflow-x: hidden;
+}
+/*表格行悬停交叉背景颜色*/
+.el-table__body tr.hover-row > td {
+  background-color: transparent
+}
+

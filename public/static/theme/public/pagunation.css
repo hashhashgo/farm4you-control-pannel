@@ -1,0 +1,32 @@
+.el-pagination__sizes {
+  /*//页数喝分页间隔，前后排列*/
+  margin: 0 67% 0 0
+}
+.el-pagination__sizes .el-input .el-input__inner {
+  font-size: 13px;
+  /*分页边框颜色*/
+  border-color: black
+}
+
+.el-pager li {
+  /*1，2，34，边框取消*/
+  border: 0px solid rgb(209, 219, 229);
+  color: #AAAAAA;
+}
+
+/*页数点击颜色*/
+.el-pager li.active {
+  border-color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #20a0ff;
+  cursor: default
+}
+
+.el-pagination .btn-next, .el-pagination .btn-prev {
+  /*1，2，34，上下一页边框取消*/
+  border: 0px solid rgb(209, 219, 229);
+}
+.el-pager li:last-child {
+  /*4，右边框取消*/
+  border-right: 0px solid rgb(209, 219, 229)
+}

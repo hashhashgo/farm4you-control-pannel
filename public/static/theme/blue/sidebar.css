@@ -1,0 +1,160 @@
+.main-container {
+  min-height: 100%;
+  transition: margin-left .28s;
+  position: relative;
+  /*整体背景颜色*/
+  background: #F7FAF8;
+}
+
+.echart_container{
+  background-color: #F7FAF8;
+}
+.navebar {
+  background: #F7FAF8;
+}
+
+.user-management{
+  background-color: #F7FAF8;
+  /*margin: 20px 20px;*/
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.menu-list .menu-item .menu-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  background: #ffffff;
+  margin: 2px;
+  border-radius: 20px;
+  /*box-shadow: 0 0 20px #eeeeee;*/
+}
+
+.failStatus {
+  display: flex;
+  flex-direction: row;
+  background-color: #F6F8F6;
+  border-radius: 10px;
+  height: 22px;
+  font-size: 5px;
+  width: 60px;
+  text-align: center;
+}
+
+.bottom_style {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.kanBan-title {
+  font-size: 16px;
+  height: 10%;
+  font-weight: bold;
+  color: #202020;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.echarts_title {
+  color: #202020;
+}
+
+.right-menu-item {
+  color: #5a5e66;
+}
+
+.carried {
+  color: #333333;
+}
+
+.sidebar-container {
+  background-color: #20699C;
+}
+
+.room-item .item-content, .medical-item {
+  box-shadow: 10px 5px 10px #eeeeee;
+}
+
+.bold {
+  color: #202020;
+}
+
+.bottom-num, .progress-bar {
+  color: #606266;
+}
+
+.detail, .content_oneWeek, .table_content, .medical, .table_content_row {
+  /*background-color: #eef0f4;*/
+  background-color: #F7FAF8;
+  color: #606060;
+  /*height: calc(100vh);*/
+}
+
+.top_oneWeek, .bottom_oneWeek {
+  box-shadow: #dcd3d3 0px 0px 2px;
+  background-color: #FFFFFF;
+}
+
+.panel-primary tr, .panel-primary td, .panel-primary bold, .content-th1, .content-th {
+  color: #606060;
+}
+
+.title_text {
+  color: #404040;
+}
+
+.persion_text, .title-content {
+  color: #202020;
+}
+
+.back .button {
+  background-color: #8CCBFE;
+  color: #FFFFFF;
+}
+
+.hamburger {
+  width: 20px;
+  height: 20px;
+  color: #8CCBFE;
+}
+
+.tit {
+  color: #202020
+}
+
+.afterToday, .countNowData, .showNowData {
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+
+.work_show, .ration_div, .show, .medical_count1, .medical_count2, .patient_person {
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+
+.el-pagination .btn-next, .el-pagination .btn-prev {
+  background: center center no-repeat #F7FAF8;
+  background-size: 16px;
+  /*border: 1px solid rgb(209, 219, 229);*/
+  cursor: pointer;
+  margin: 0;
+  color: rgb(151, 168, 190)
+}
+
+.el-pagination button:disabled, .el-pager li{
+  background-color: #F7FAF8;
+}
+
+.el-date-editor .el-range__close-icon{
+  margin-right: 35px;
+}
+
+.el-tree-node__content>.el-tree-node__expand-icon{
+  padding: 0;
+}
+.el-icon-caret-right:before{
+  content: none;
+}

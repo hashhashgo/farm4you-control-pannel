@@ -1,0 +1,10 @@
+.el-picker-panel {
+  /*日期下拉框颜色*/
+  color: #B2C0DD;
+  /*border: 1px solid rgb(209, 219, 229);*/
+  box-shadow: 0 2px 6px #ccc;
+  background: #2a364f;
+  border-radius: 2px;
+  line-height: 20px;
+  margin: 5px 0
+}

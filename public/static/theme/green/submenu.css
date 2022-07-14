@@ -1,0 +1,33 @@
+.el-submenu__title.is-active{
+  /*background: linear-gradient(to right, #2870aa, #FFFFFF);*/
+  color: #32A2FD;
+}
+.el-submenu__title.active{
+  background-color: #4F5F84;
+}
+.el-submenu:hover, .el-submenu__title i:hover{
+color: #32A2FD;
+  background-color: #2D3953;
+}
+.el-submenu .el-menu-item {
+  padding-left: 10px;
+   background-color: #4F5F84;
+}
+.el-submenu .el-menu-item:active {
+  background-color: #4F5F84;
+}
+.el-submenu .el-menu-item:focus {
+   background-color: #4F5F84;
+}
+.el-submenu__title i{
+  color: #FFFFFF;
+}
+.el-submenu__icon-arrow.is-active .el-icon-arrow-down.is-active{
+  color: #32A2FD;
+  background-color: #4F5F84;
+}
+
+.sidebar-container .is-active > .el-submenu__title{
+  color: #FFFFFF;
+}
+

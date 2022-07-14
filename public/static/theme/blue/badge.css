@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.el-badge {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block
+}
+
+.el-badge__content {
+  background-color: #ff4949;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  height: 18px;
+
+  line-height: 16px;
+  padding: 1px 1px;
+  text-align: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 50%;
+  border: 1px solid #fff
+}
+
+.el-badge__content.is-dot {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  right: 0;
+  border-radius: 50%
+}
+
+.el-badge__content.is-fixed {
+  top: 18px;
+  right: 2px;
+  position: absolute;
+  -ms-transform: translateY(-50%) translateX(100%);
+  transform: translateY(-50%) translateX(100%)
+}
+
+.el-badge__content.is-fixed.is-dot {
+  right: 5px
+}

@@ -1,0 +1,4 @@
+.el-select-dropdown__item:hover, .el-select-dropdown__item:hover {
+  /*下拉框背景颜色悬停*/
+  background-color: #235db7 !important;
+}

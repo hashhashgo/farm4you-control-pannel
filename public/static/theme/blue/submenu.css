@@ -1,0 +1,36 @@
+.el-submenu__title.is-active{
+  /*background: linear-gradient(to right, #2870aa, #FFFFFF);*/
+  color: #32A2FD;
+}
+.el-submenu__title.active{
+  background-color: #DAEBF7;
+}
+.el-submenu:hover, .el-submenu__title i:hover{
+color: #32A2FD;
+}
+.el-submenu .el-menu-item {
+  padding-left: 10px;
+   background-color: #488DBC;
+}
+.el-submenu .el-menu-item:active {
+   background-color: #FFFFFF;
+}
+.el-submenu .el-menu-item:focus {
+   background-color: #DAEBF7 !important;
+}
+.el-submenu__title i{
+  color: #FFFFFF;
+}
+.el-submenu__icon-arrow.is-active .el-icon-arrow-down.is-active{
+  color: #32A2FD;
+}
+
+.nest-menu .el-submenu>.el-submenu__title:hover,
+.el-menu-item:hover{
+  background-color: #DAEBF7 !important;
+}
+
+.sidebar-container .is-active > .el-submenu__title{
+  color: #FFFFFF;
+}
+

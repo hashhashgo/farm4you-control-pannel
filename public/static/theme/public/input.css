@@ -1,0 +1,14 @@
+.el-icon-date, .el-icon-time {
+  /*时间icon归位*/
+  position: absolute;
+  width: 35px;
+  height: 100%;
+  top: 0;
+  right: -24px;
+  text-align: center;
+  color: rgb(191, 203, 217);
+  transition: all .3s
+}
+.el-range__icon{
+  right: 0px;
+}

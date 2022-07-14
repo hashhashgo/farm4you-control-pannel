@@ -1,0 +1,19 @@
+.el-menu-item-group{
+  color: #DAEBF7;
+  background-color: #4F5F84;
+}
+.el-menu-item-group.is-active{
+  background-color: #4F5F84;
+}
+.el-menu-item i{
+  color: #FFFFFF;
+}
+.el-menu-item i.\'is-active\'\:{
+  color: #32A2FD;
+}
+.el-menu-item i:hover{
+  color: #32A2FD;
+}
+.el-menu-item i:active{
+  color: #32A2FD;
+}

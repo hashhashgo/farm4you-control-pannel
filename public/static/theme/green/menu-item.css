@@ -1,0 +1,41 @@
+.el-menu-item.is-active, .router-link-active{
+  color: #32A2FD; !important;
+  background-color: #4F5F84;
+}
+.el-menu-item.is-active{
+  color: #FFFFFF; !important;
+  background-color: #4F5F84;
+  /*background-color: #DAEBF7;*/
+}
+.el-submenu__title.is-active{
+  color: #FFFFFF; !important;
+  background-color: #4F5F84;
+  /*background-color: #DAEBF7;*/
+}
+
+.el-menu-item.is-active span {
+  /*background-color: #3370ff !important;*/
+  color: #32A2FD; !important;
+}
+
+#app .sidebar-container .is-active > .el-submenu__title {
+  /*background-color: #3370ff !important;*/
+  color: #FFFFFF; !important;
+}
+
+
+.nest-menu  span{
+  margin-left: 10px;
+}
+#app .sidebar-container .is-active > .el-submenu__title{
+  color: #FFFFFF; !important;
+  /*background-color: #DAEBF7;*/
+}
+.icon-menu-colors, .icon{
+  color: #FFFFFF;
+}
+
+.el-submenu__title:hover {
+  background-color: #235db7 !important;
+  color: #FFFFFF;
+}

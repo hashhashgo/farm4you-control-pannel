@@ -1,0 +1,10 @@
+.el-menu-item-group{
+  color: #FFFFFF;
+/*// 二级菜单字体颜色*/
+  background-color: #32A2FD;
+/*// 二级菜单背景颜色*/
+}
+.el-menu-item-group:active{
+  background-color: #FFFFFF;
+/*// 二级菜单点击背景颜色*/
+}
